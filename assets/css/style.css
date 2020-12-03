@@ -4,27 +4,32 @@
     margin: 0;
 }
 
+/* sets background color of website */
 body {
     background-color: #d9dcd6;
 }
 
-.header {
+/* changed from class, sets size of header banner, color of text, font family, and padding */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+/* changed from class, sets font size for 'Hori' */
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* changed from class, sets font color for 'seo' */
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* changed from class, sets padding, margin, position, font, and font size for links in header */
+header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,25 +37,30 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* changed from class, list-style-type allows for different bullet points, none removes the bullets */
+header section ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/* changed from class, makes listed items inline elements */
+header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* changes text color of links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* changes font size for all paragraph blocks */
 p {
     font-size: 16px;
 }
 
-.hero {
+/* sets size, margin, and position for main cover image */
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,22 +69,26 @@ p {
     background-position: center;
 }
 
+/* floats images left within their block */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* floats images right within their block */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* sets width and margin for article blocks, does not add a line break after the element so they can sit inline with each other */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* sets the parameters for the aside and clears the previous floats to allow this aside to float right */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,55 +100,27 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* combined three sections, sets size and font color for aside */
+.benefit-lead,.benefit-brand,.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* combined three sections, sets parameters for headers of aside */
+.benefit-lead h3,.benefit-brand h3,.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* combined three sections, sets parameters for aside images */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* combined three sections, sets parameters for articles' boxes */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,58 +129,26 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* combined three sections, set height of articles' images*/
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* combined three sections, set font size and spacing for header of articles*/
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+/* changed from class to footer, sets parameters for footer */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+/* sets parameters for header font in footer */
+footer h2 {
     font-size: 20px;
 }
