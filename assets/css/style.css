@@ -29,7 +29,7 @@ header h1 .seo {
 }
 
 /* changed from class, sets padding, margin, position, font, and font size for links in header */
-header section {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -38,12 +38,12 @@ header section {
 }
 
 /* changed from class, list-style-type allows for different bullet points, none removes the bullets */
-header section ul {
+header nav ul {
     list-style-type: none;
 }
 
 /* changed from class, makes listed items inline elements */
-header section ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
